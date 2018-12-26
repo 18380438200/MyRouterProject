@@ -41,6 +41,7 @@ dependencies {
     implementation project(':libbase')
     implementation project(':login')
 
-    implementation 'com.alibaba:arouter-api:1.2.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+
 }
