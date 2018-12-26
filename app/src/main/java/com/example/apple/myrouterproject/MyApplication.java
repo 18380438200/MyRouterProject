@@ -1,19 +1,15 @@
 package com.example.apple.myrouterproject;
 
-import android.app.Application;
-import com.alibaba.android.arouter.launcher.ARouter;
+import com.example.libbase2.BaseApplication;
 
 /**
- * Create by libo
+ * create by libo
+ * create on 2018/12/25
  */
-public class MyApplication extends Application{
+public class MyApplication extends BaseApplication {
 
     @Override
     public void onCreate() {
         super.onCreate();
-
-        ARouter.openDebug();
-        ARouter.openLog();
-        ARouter.init(this);
     }
 }

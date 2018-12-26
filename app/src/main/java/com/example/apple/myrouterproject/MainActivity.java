@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void route(View view) {
-        ARouter.getInstance().build(RouterPath.LIB_ONE).navigation();
+        ARouter.getInstance().build(RouterPath.ROUTER_LOGIN).navigation();
     }
 
     public void routeWithArgs(View view) {
-        ARouter.getInstance().build(RouterPath.LIB_ONE).withInt("id",100).navigation();
+        ARouter.getInstance().build(RouterPath.ROUTER_LOGIN).withInt("id",100).navigation();
     }
 }

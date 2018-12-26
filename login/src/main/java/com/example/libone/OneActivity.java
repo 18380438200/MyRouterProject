@@ -6,7 +6,7 @@ import android.widget.Toast;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.libbase2.RouterPath;
 
-@Route(path = RouterPath.LIB_ONE)
+@Route(path = RouterPath.ROUTER_LOGIN)
 public class OneActivity extends AppCompatActivity {
 
     @Override
