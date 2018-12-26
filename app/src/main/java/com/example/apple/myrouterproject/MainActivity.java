@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void routeWithArgs(View view) {
-        ARouter.getInstance().build(RouterPath.ROUTER_LOGIN).withString("phone", "18201038278").navigation();
+        ARouter.getInstance().build(RouterPath.ROUTER_LOGIN)
+                .withString("phone", "18201038278")
+                .withTransition(R.anim.dialog_enter, R.anim.dialog_exit)
+                .navigation();
     }
 }
